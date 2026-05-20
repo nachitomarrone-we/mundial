@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;/*se ajusta al tamaño del contenedor*/
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+/*inicio del header*/
+header{
+  background-color: #000;
+}
+#logos{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#copa img{
+  width: 100px;
+}
+#fifa img{
+  width: 191px;
+}
+/*fin del header*/
+
+/*comienzo nav*/
+nav {
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+.activo{
+  box-shadow: 5px 5px lightgray;
+}
+/*fin nav*/
+/*inicio main*/
+
+section{
+  width: 1000px;
+  background-color: thistle;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section div{
+  width: 33%;
+  height: 350px;
+  background-color: yellow;
+  margin-left: 2px;
+}
+#intro{
+  background-image: url(https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=1600);
+  box-shadow: 5px 3px grey;
+}
+
+#eeuu{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg);
+  background-size: cover;
+}
+#mx{
+  background-image: url(https://cdn0.uncomo.com/es/posts/6/1/8/significado_de_la_bandera_y_el_escudo_de_mexico_44816_orig.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+#can{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTik-d2aSFyqwfsISoTDZbEH47nPyDINOfL0w&s);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*fin main*/
+/*comienzo de estadios*/
+table, td,th{
+
+background-color: red;
+}
+  
+
+
+/*inicio del footer*/ 
+footer{   
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#colegio{
+  width: 33%;
+  background-color: red;
+  padding: 5px;
+} 
+#colegio a{
+color: #d4d4d4;
+}
+
+#alumno{
+  width: 33%;
+  background-color: yellow;
+  color: #aaa;
+  padding: 5px;
+}
+#alumno a{ 
+  color: #aaa;
+}
+#sociales{ 
+  width: 33%;
+  background-color: lightblue;
+  padding: 5px;
+}
+#sociales img{
+  width: 50px;
+}
+/*fin del footer*/
+
+
+
+
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
