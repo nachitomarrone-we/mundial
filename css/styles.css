@@ -171,5 +171,10 @@ background-color: #aaa;
 
 #estados unidos tr,estados unidos td,estados unidos th{
 border: solid coral 3px;
+border: collapse;
+}
+
+#estados unidos igm{
+width: 200px;
 
 }
