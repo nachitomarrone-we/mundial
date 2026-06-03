@@ -72,10 +72,10 @@ section{
   justify-content: center;
 }
 section div{
-  width: 33%;
-  height: 350px;
+  width: 300px;
+  height: 170px;
   background-color: yellow;
-  margin-left: 2px;
+  margin: 5px;
 }
 #intro{
   background-image: url(https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=1600);
@@ -83,17 +83,18 @@ section div{
 }
 
 #eeuu{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg);
+  background-image: url(../img/bandera\ eeuu.png);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #mx{
-  background-image: url(https://cdn0.uncomo.com/es/posts/6/1/8/significado_de_la_bandera_y_el_escudo_de_mexico_44816_orig.jpg);
+  background-image: url(../img/bandera\ mx.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
 }
 #can{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTik-d2aSFyqwfsISoTDZbEH47nPyDINOfL0w&s);
+  background-image: url(../img/bandera\ can.png);
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
