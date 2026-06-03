@@ -159,3 +159,12 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.multimedia{
+width: 800px;
+background-color: #aaa;
+}
+
+.multimedia video{
+  width: 600px;
+}
