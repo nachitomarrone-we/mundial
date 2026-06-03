@@ -83,18 +83,18 @@ section div{
 }
 
 #eeuu{
-  background-image: url(../img/bandera\ eeuu.png);
+  background-image: url(../img/banderaeeuu.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #mx{
-  background-image: url(../img/bandera\ mx.png);
+  background-image: url(../img/banderamx.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
 }
 #can{
-  background-image: url(../img/bandera\ can.png);
+  background-image: url(../img/banderacan.png);
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
