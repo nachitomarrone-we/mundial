@@ -169,7 +169,7 @@ background-color: #aaa;
   width: 600px;
 }
 
-#estadosunidos tr,estados unidos td,estados unidos th{
+#estadosunidos tr,#estadosunidos td,#estadosunidos th{
 border: solid coral 3px;
 border: collapse;
 }
@@ -178,3 +178,23 @@ border: collapse;
 width: 200px;
 
 }
+
+#Canadá tr,#Canadá td,#Canadá th{
+  border: solid coral 3px;
+  border: collapse;
+  }
+  
+  #Canadá igm{
+  width: 200px;
+  
+  }
+
+  #Mexico tr,#Mexico td,#Mexico th{
+    border: solid coral 3px;
+    border: collapse;
+    }
+    
+    #Mexico igm{
+    width: 200px;
+    
+    }
